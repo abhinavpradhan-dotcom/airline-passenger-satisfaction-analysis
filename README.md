@@ -1,12 +1,12 @@
 # ✈️ Airline Passenger Satisfaction Analysis
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes airline passenger satisfaction using the Airline Passenger Satisfaction dataset from Kaggle. The analysis is performed using **R programming** to understand passenger experiences, identify service improvement opportunities, and explore the relationship between passenger satisfaction and different travel factors.
 
 The project covers data cleaning, exploratory data analysis (EDA), graphical reporting, and business recommendations.
 
-## 🎯 Objectives
+## Objectives
 
 - Identify and handle missing values in the dataset.
 - Convert passenger satisfaction into a binary target variable.
@@ -16,7 +16,7 @@ The project covers data cleaning, exploratory data analysis (EDA), graphical rep
 - Explore flight distance and flight delays.
 - Suggest areas where airlines can improve customer experience.
 
-## 📊 Dataset
+## Dataset
 
 - **Dataset:** Airline Passenger Satisfaction
 - **Source:** Kaggle
@@ -25,7 +25,7 @@ The project covers data cleaning, exploratory data analysis (EDA), graphical rep
 
 🔗 [Download the dataset from Kaggle](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - R Programming
 - tidyverse
@@ -37,7 +37,7 @@ The project covers data cleaning, exploratory data analysis (EDA), graphical rep
 - Data Visualization
 - Correlation Analysis
 
-## 🔍 Project Workflow
+## Project Workflow
 
 ### Phase 1: Data Cleaning
 
@@ -81,7 +81,7 @@ The findings can help airlines:
 - Investigate whether flight delays are associated with lower satisfaction.
 - Develop data-driven strategies to improve passenger experience.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 airline-passenger-satisfaction-analysis/
@@ -95,7 +95,7 @@ airline-passenger-satisfaction-analysis/
 
 *Note: Add only the files that are actually present in your repository. Do not upload the dataset if its license or sharing terms do not permit redistribution.*
 
-## ⚙️ How to Run the Project
+## How to Run the Project
 
 1. Install R from [CRAN](https://cran.r-project.org/).
 2. Install RStudio or another R-compatible editor.
@@ -110,13 +110,13 @@ install.packages(c("tidyverse", "reshape2"))
 6. Open `project_code.R` in RStudio.
 7. Run the script and review the analysis outputs and plots.
 
-## 📈 Results
+## Results
 
 The R script calculates passenger satisfaction percentages, average age by travel class, service rating averages, flight delays, satisfaction rates by customer type and class, and service-rating correlations.
 
 **Actual findings and numerical results will be added after running and validating the analysis.**
 
-## 💡 Key Learning Outcomes
+## Key Learning Outcomes
 
 - Data cleaning and missing-value handling in R.
 - Data transformation and binary encoding.
@@ -125,9 +125,9 @@ The R script calculates passenger satisfaction percentages, average age by trave
 - Correlation analysis and heatmap creation.
 - Interpreting data to support business decisions.
 
-## 👨‍💻 Author
+## Author
 
-**MCA Student**
+**Abhinav Pradhan**
 
 Data Analytics | R Programming | Exploratory Data Analysis
 
