@@ -88,12 +88,8 @@ airline-passenger-satisfaction-analysis/
 │
 ├── README.md
 ├── project_code.R
-├── test.csv
-└── visualizations/
-    └── (Add exported charts here)
+└── visualizations
 ```
-
-*Note: Add only the files that are actually present in your repository. Do not upload the dataset if its license or sharing terms do not permit redistribution.*
 
 ## How to Run the Project
 
