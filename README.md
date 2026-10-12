@@ -88,8 +88,16 @@ airline-passenger-satisfaction-analysis/
 │
 ├── README.md
 ├── project_code.R
-└── visualizations
+├── Airline Passenger Satisfaction.docx
+├── Airline Passenger Satisfaction.pptx
+└── visualizations/
+    ├── satisfaction_by_customer_type.png
+    ├── satisfaction_by_class.png
+    ├── service_correlation_heatmap.png
+    └── flight_distance_distribution.png
 ```
+
+**Note:** The `visualizations/` folder contains the graphical reports generated during the analysis.
 
 ## How to Run the Project
 
