@@ -1,4 +1,7 @@
 library(tidyverse)
+# Create folder if it does not exist
+dir.create("visualizations", showWarnings = FALSE)
+
 
 # Load the data 
 df <- read.csv("test.csv")
@@ -64,11 +67,27 @@ df %>% group_by(Customer.Type) %>% summarise(satisfaction_rate = mean(satisfacti
 ggplot(df, aes(x = Customer.Type, fill = as.factor(satisfaction))) +
   geom_bar(position = "fill") + 
   labs(y = "Proportion", title = "Satisfaction by Customer Loyalty")
+# Save the latest ggplot
+ggsave(
+  "visualizations/Satisfaction rate by Customer Type (Bar Chart).png",
+  plot = last_plot(),
+  width = 8,
+  height = 5,
+  dpi = 300
+)
 
 # 2. Satisfaction by Class (Grouped Bar Chart)
 ggplot(df, aes(x = Class, fill = as.factor(satisfaction))) +
   geom_bar(position = "dodge") +
   labs(title = "Count of Satisfaction Levels by Class")
+# Save the latest ggplot
+ggsave(
+  "visualizations/Satisfaction by Class (Grouped Bar Chart).png",
+  plot = last_plot(),
+  width = 8,
+  height = 5,
+  dpi = 300
+)
 
 # 3. Heatmap of correlations
 library(reshape2)
@@ -78,8 +97,24 @@ ggplot(melted_cor, aes(Var1, Var2, fill = value)) +
   geom_tile() +
   scale_fill_gradient2(low = "blue", high = "red", mid = "white") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+# Save the latest ggplot
+ggsave(
+  "visualizations/Heatmap of correlations.png",
+  plot = last_plot(),
+  width = 8,
+  height = 5,
+  dpi = 300
+)
 
 # 4. Distribution of Flight Distance
 ggplot(df, aes(x = Flight.Distance, fill = as.factor(satisfaction))) +
   geom_density(alpha = 0.5) +
   labs(title = "Flight Distance Distribution by Satisfaction")
+# Save the latest ggplot
+ggsave(
+  "visualizations/Distribution of Flight Distance.png",
+  plot = last_plot(),
+  width = 8,
+  height = 5,
+  dpi = 300
+)
