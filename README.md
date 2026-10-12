@@ -91,10 +91,10 @@ airline-passenger-satisfaction-analysis/
 ├── Airline Passenger Satisfaction.docx
 ├── Airline Passenger Satisfaction.pptx
 └── visualizations/
-    ├── satisfaction_by_customer_type.png
-    ├── satisfaction_by_class.png
-    ├── service_correlation_heatmap.png
-    └── flight_distance_distribution.png
+    ├── Distribution of Flight Distance.png
+    ├── Heatmap of correlations.png
+    ├── Satisfaction by Class (Grouped Bar Chart).png
+    └── Satisfaction rate by Customer Type (Bar Chart).png
 ```
 
 **Note:** The `visualizations/` folder contains the graphical reports generated during the analysis.
